@@ -40,7 +40,7 @@ void CmdSpawn()
 }
 
 [Command]
-void GrantAuthority(GameObject target)
+void CmdGrantAuthority(GameObject target)
 {
     // target must have a NetworkIdentity component to be passed through a Command
     // and must already exist on both server and client
